@@ -34,8 +34,8 @@ var map = L.map("map", {
 });
 
 // Add our tilelayers to the map 
-streetmap.addTo(map);
-outdoorsemap.addTo(map);
+// streetmap.addTo(map);
+// outdoorsemap.addTo(map);
 satelitemap.addTo(map);
 
 // Create a legend to display information about our map
