@@ -30,7 +30,7 @@ var baseMaps = {
 var map = L.map("map", {
     center: [0, 0],
     zoom: 2, 
-    layers: [satelitlemap]
+    layers: [satelitemap]
 });
 
 // Add our tilelayers to the map 
