@@ -29,7 +29,8 @@ var baseMaps = {
 // Create Map Object
 var map = L.map("map", {
     center: [0, 0],
-    zoom: 2
+    zoom: 2, 
+    layers: [satelitlemap]
 });
 
 // Add our tilelayers to the map 
